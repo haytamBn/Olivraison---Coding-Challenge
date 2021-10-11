@@ -14,6 +14,7 @@ const TodoItem = (props) => (
         className="destroy"
         onClick={() => props.handleDelete(props.id)}
       />
+   
     </div>
   </li>
 );
